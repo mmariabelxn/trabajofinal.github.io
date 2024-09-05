@@ -1,0 +1,76 @@
+/* Estilos globales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #9c9d9ee0; /* Color de fondo suave */
+    color: #333;
+}
+
+/* Encabezado */
+header {
+    background-color: #f8ace1; /* Color azul claro */
+    color: rgb(32, 20, 26);
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Navegación */
+nav {
+    margin: 10px 0;
+}
+
+.nav-button {
+    text-decoration: none;
+    color: white;
+    background-color: #29031d; /* Color azul más oscuro */
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.nav-button:hover {
+    background-color: #500343; /* Color azul al pasar el mouse */
+}
+
+/* Contenido principal */
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    margin-top: 0;
+    color: #0a0905e1;
+}
+
+
+/* Pie de página */
+footer {
+    background-color: #f8ace1; /* Color azul claro */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer a {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px 20px;
+    color: rgba(43, 4, 26, 0.87);
+    background-color: #f81b89;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+footer a:hover {
+    background-color: #e414c1e7;
+}
